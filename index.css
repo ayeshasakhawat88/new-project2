@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+  }
+  .header{
+    min-height:350px;
+    background-image:linear-gradient(rgba(28, 32, 49, 0.7),rgba(26, 30, 46, 0.7)),url(images/working.jpg);
+    background-position: center;
+  
+  }
+   .header h1{
+    text-align: center;
+    color:rgb(231, 234, 236);
+    padding-top: 100px; 
+    margin-bottom:25px;
+    font-size: 80px;
+  }
+  
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon i{
+  font-size: 1.1em;
+}
+
+.heading-container {
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.heading-container h2 {
+  color: white;
+  font-size: 5px;
+}
+
+.highlight-word-color {
+  color: blue;
+  
+}
+
+.card img{
+  height: 250px;
+  width: 355px;
+  box-shadow:0 4px 6px rgba(12, 12, 12, 0.9)
+}
+.card-body {
+  /* Add styls for card body if needed */
+   box-shadow: 0 4px 6px rgba(12, 12, 12, 0.9);
+    
+  
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.pheading{
+margin: 20px 0;
+/* display: grid; */
+}
+.container{
+  
+  padding: 15px 9%;
+  padding-bottom: 100px;
+  padding-top: 15px 9%;
+} 
+ .body{
+  background-color:rgb(240, 227, 227) ;
+ }
+
+.card:hover{
+  transform:scale(1.03);
+  background-color: rgba(28, 32, 49, 0.7);
+cursor:pointer;
+  transition: all 1s ease;
+  color: white;
+  
+} 
